@@ -41,13 +41,9 @@ type UserStruct struct {
 	Name       string
 	Passwd     string
 	Uid        string
-	Updator    string
-	Creater    string
 	Status     string
 	CreateTime string
 	UpdateTime string
-	CreateIp   string
-	UpdateIp   string
 }
 
 func (W *Web) AddUser( w http.ResponseWriter, r *http.Request )  {
